@@ -1,0 +1,342 @@
+.{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    display: flex;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.mlr-80{
+    padding: 0px 110px;
+}
+.pos{
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #fff; 
+}
+.head{
+    color: #000;
+    margin-left: 90px;
+    font-size: 28px;
+    font-family: "raleway", sans-serif;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 96px;
+    top: 25px;
+    font-size: 33px;
+    color: #556270;
+    font-family: "raleway", sans-serif;
+}
+.navbar{
+    display: block;
+    margin: 17px 0px 0px 501px;
+}
+.menu{
+    display: inline-block;
+}
+.menu li{
+    display: inline-block;
+    padding: 3px 8px 0px 0px;
+    margin: 0px 0px 2px 10px;
+}
+.menu li a{
+    color: #556270;
+    text-decoration: none;
+    font-family: "raleway", sans-serif;
+    margin: 0px 10px 0px 0px;
+}
+.menu li a:hover, .menu li a.active{
+    color: #d9232d;
+}
+.btn{
+    display: inline-block;
+    position: absolute;
+    right:140px;
+    top: 25px;
+}
+.btn1{
+    color: #fff;
+    padding: 10px 35px;
+    background: #d9232d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdown{
+    display: none;
+}
+.navbar ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -48px;
+    background-color: #fff;
+    width:240px;
+    padding: 0px 0px 0px 0px;
+}
+.navbar ul li:hover .dropdown ul li{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+.img{
+    height: 645px;
+    width: 1519px;
+    margin: 20px 0px 0px -17px;
+    padding: 0px 0px 0px 9px;
+}
+.icon{
+    color: #052c65;
+    margin-left: 2px;
+}
+.icon2{
+    margin-left: 20px;
+}
+.dropdown2{
+    display: none;
+}
+.dropdown ul li:hover .dropdown2{
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 187px;
+    right: -200px;
+    background-color: #fff;
+}
+.head{
+    font-size: 55px;
+    color: aliceblue;
+    margin-top: -400px;
+    text-align: center;
+}
+.para{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.btn2{
+    color:#fff;
+    margin-left: 670px;
+    background-color: #d9232d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+.head2{
+    font-size: 50px;
+    color: #444444;
+    margin-top: 250px;
+    font-family: "Raleway", sans-serif;   
+}
+.para2{
+    font-size: 20px;
+    margin-left: 100px;
+    color: #444444;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 180px;
+}
+.para3{
+    color: #444444;
+    margin-top: 250px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    margin-right: 50px;
+}
+.icon3{
+    color: #d9232d;
+}
+.second-sec{
+    color: #444444;
+    font-size: large;
+}
+.content{
+    color: #444444;
+    font-size: large;
+}
+.img-tag{
+    height:110px;
+    width:244px;
+    margin: 0px 0px 0px -4px;
+    background-color: #f8f9fa;
+    margin-bottom: 52px;
+}
+.icon4{
+    color: #d9232d;
+    font-size: 35px;
+    margin: 0px 0px 0px 50px;
+}
+.mlr-25{
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    margin: 15px 15px;
+    padding: 20px 0px;
+}
+.service{
+    margin-left: -200px;
+}
+.row{
+    list-style-type: none;
+    display: block;
+    margin-left: 400px;
+    margin-top: 70px;
+}
+.row li{
+    display: inline-block;
+}
+.row li a{
+    text-decoration: none;
+    color: #052c65;
+    margin-left: 40px;
+    font-family: raleway, sans-serif;
+}
+.row li .active{
+    color: #fff;
+    background-color: #d9232d;
+    border: 1px solid #d9232d;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.row li a:hover{
+    background-color: #d9232d;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.Portfolio{
+    margin-top: 70px;
+    height: 400px;
+    width: 400px;
+}
+.Portfolio1{
+    height: 250px;
+    width: 430px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+}
+.Portfolio2{
+    height: 210px;
+    width: 400px;
+    margin-bottom: 188px;
+    margin-left: 20px;
+}
+.Portfolio3{
+    height: 250px;
+    width: 400px;
+    margin: -165px 0px 0px 877px;
+}
+.Portfolio4{
+    height: 630px;
+    width: 430px;
+    margin: -215px 0px 0px 425px;
+}
+.Portfolio5{
+    height: 630px;
+    width: 400px;
+    margin: -485px 750px 0px 0px;
+}
+.Portfolio6{
+    height: 250px;
+    width: 430px;
+    margin: -550px 0px 400px 880px;
+}
+.Portfolio7{
+    height: 250px;
+    width: 430px;
+    margin: -383px 0px 300px 880px;
+}
+.Portfolio8{
+    height: 250px;
+    width: 430px;
+    margin: -550px 0px 160px 425px;
+}
+.bcg1{
+    background-color: #4a5562;
+    margin: -100px -8px 0px -8px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+.social-links{
+    color: #fff;
+    background-color: #6c757d;
+    border-radius: 5px;
+    padding: 10px 11px;
+    margin: 0px 5px 2px 0px;
+    text-decoration: none;
+}
+.social-links:hover{
+    background-color: #d9232d;
+    color: #fff;
+}
+.footer-right{
+    margin-left: 30px;
+}
+.footer{
+    color: #6c757d;
+    margin: 30px -40px;
+    font-family: "Raleway", sans-serif;
+}
+.footer-right1{
+    margin-right: 220px;
+}
+.footer-left{
+    color: #fff;
+    font-family: "raleway", sans-serif;
+}
+.footer-form{
+    padding: 9px 30px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+.submit{
+    background-color: #d9232d;
+    color: #fff;
+    padding: 9px 15px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+}
+.bcg2{
+    background-color: #6c757d;
+    margin: 0px -8px -8px -8px;   
+}
+.copyright{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+.highlight{
+    font-weight: 600;
+    font-family: "raleway", sans-serif;
+}
+.sailor{
+    text-decoration: none;
+    font-size: small;
+    color: #4a5562;
+    font-family: "raleway", sans-serif;
+}
+.sailor:hover{
+    color: #fff;
+}
+.arrow-up{
+    border-radius: 5px;
+    background-color: #d9232d;
+    color: #fff;
+    padding: 9px 9px;
+    margin: 34px -97px 16px 27px;
+    font-size: 22px;
+    text-decoration: none;
+}
